@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+#header {
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+body {
+    margin:0;
+    min-height: 100vh;
+}
+
+#pricing {
+    
+}
+
+.page-section {
+    min-height: 60vh;
+    display: flex;
+}
+
+.page-section:nth-child(even) {
+    background-color: #eee;
+}
+
+#what-we-do {
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+#our-customers {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    border: 2px solid #ccc;
+    margin: 8px;
+    padding: 8px;
+
+}
+
+.card > img {
+    max-height:130px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    margin-right:15px;
+}
+
+#pricing {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:5px solid transparent;    
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+    margin: 20px;
+    width:30vh;
+    transition: 0.5s;
+    background-image: linear-gradient(-90deg, red, yellow);
+}
+
+.plan:hover {
+    background-color: hotpink;
+    border-width: 10px;
+    transform: skewY(20deg);
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT8rCnvF1u09xC4qNY_m8ftu2zYPtK3tQ4JpIBOV_0-aEEkL_v-');
+    background-size: 105%;
+    cursor: pointer;
+}
+
+.plan:unhover
+footer {
+    background-color: black;
+    color:white;
+    height:7vh;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.footing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
